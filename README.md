@@ -8,21 +8,23 @@ Use the below steps to run the project
 
 1) Download and install ant version 1.9.5 from the below path
 
-https://ant.apache.org/bindownload.cgi
+	https://ant.apache.org/bindownload.cgi
 
 2) Set the JAVA_HOME to Jdk 1.7
 
-3) Clone the repository in your local workspace
+3) Update environment variables to include ant in path
 
-4) Run the below command to compile the code
+4) Clone the repository in your local workspace
+
+5) Run the below command to compile the code
 
 	ant compile
 	
-5) Run the below commane to create the jar file
+6) Run the below commane to create the jar file
 	
 	ant jar
 	
-6) Run the below command to run the program
+7) Run the below command to run the program
 
 java -jar build\jar\JSON_XML_Converter.jar <Source Json path> <Output path / file>
 
