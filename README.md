@@ -26,7 +26,7 @@ Use the below steps to run the project
 	
 7) Run the below command to run the program
 
-java -jar build\jar\JSON_XML_Converter.jar <Source Json path> <Output path / file>
+	java -jar build\jar\JSON_XML_Converter.jar (Source Json path) (Output path/file)
 
-Example:- 
-java -jar build\jar\JSON_XML_Converter.jar C:\input\example.json C:\output\convertedXML.xml
+	Example:- 
+	java -jar build\jar\JSON_XML_Converter.jar C:\input\example.json C:\output\convertedXML.xml
