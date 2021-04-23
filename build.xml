@@ -1,0 +1,26 @@
+<project>
+
+    <target name="clean">
+        <delete dir="build"/>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="build/classes"/>
+        <javac srcdir="src" destdir="build/classes">
+		<classpath>
+        		<pathelement path="lib/json-simple-1.1.jar"/>
+    		</classpath>
+	</javac>
+    </target>
+
+    <target name="jar">
+        <mkdir dir="build/jar"/>
+        <jar destfile="build/jar/JSON_XML_Converter.jar" basedir="build/classes">
+            <manifest>
+                <attribute name="Main-Class" value="com.main.SampleJSONXMLConversion"/>
+		<attribute name="Class-Path" value="../../lib/json-simple-1.1.jar"/>
+            </manifest>
+        </jar>
+    </target>
+
+</project>
