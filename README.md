@@ -15,9 +15,13 @@ https://ant.apache.org/bindownload.cgi
 3) Clone the repository in your local workspace
 
 4) Run the below command to compile the code
+
 	ant compile
-5) Run the below commant to create the jar file
+	
+5) Run the below commane to create the jar file
+	
 	ant jar
+	
 6) Run the below command to run the program
 
 java -jar build\jar\JSON_XML_Converter.jar <Source Json path> <Output path / file>
