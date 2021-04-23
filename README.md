@@ -1,4 +1,4 @@
-# json-xml-convertor
+# json-xml-converter
 
 This project is used to convert JSON to XML
 
